@@ -1,0 +1,63 @@
+.pokemonsCard {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(115, 184, 62);
+}
+
+.pokemonBox {
+    width: 90%;
+    margin: 10% auto;
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstSection, .thirdSection {
+    width: 48%;
+    border: 1px solid green;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.secondSection {
+    padding:10px 25px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+
+.boxCard {
+    width: 30%;
+    height: 80%;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.boxCard h2 {
+    color: blue;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.boxCard p {
+    margin: 5px;
+}
