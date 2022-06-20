@@ -1,24 +1,30 @@
-.card {
+.boxCard {
+    width: 30%;
+    height: 80%;
+    margin: 0 10px;
+    border-radius: 15px;
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ;
 
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin: 15px;
-
-}
-.card img {
-   width: 100px;
-   height: auto;
-   transition: all .2s;
-}
-.card img:hover {
-    cursor: pointer;
-    transform: scale(2);
+  
 }
 
-.card h2 {
-    font-size: 20px;
-    margin: 5px auto;
+.boxCard:hover {
+    transform: scale(1.09);
+}
+
+
+.boxCard h2 {
+    color: blue;
     font-weight: 400;
-    color: rgb(46, 46, 133)
+    margin-top: 5px;
 }
+
+.boxCard p {
+    margin: 5px;
+}
+

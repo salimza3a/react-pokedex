@@ -1,0 +1,18 @@
+
+.card {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all .2s;
+}
+.card:hover {
+    transform: scale(1.07);
+}
+.card p {
+    font-size:  20px;
+    font-weight: 600;
+    color: rgb(139, 20, 127);
+    margin: 5px 0;
+    
+}
